@@ -1,0 +1,59 @@
+@import url("https://fonts.cdnfonts.com/css/meticula");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#back {
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  cursor: pointer;
+}
+#quote-box {
+  font-family: "Meticula", sans-serif;
+  width: 35rem;
+  height: 25rem;
+  background-color: rgb(247, 247, 247);
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+#text span {
+  margin-right: 9px;
+}
+#text {
+  font-size: 30px;
+  font-family: "Meticula", sans-serif;
+}
+#author {
+  font-size: 20px;
+  text-align: right;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  cursor: pointer;
+}
+#new-quote {
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+#tweet-quote {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
