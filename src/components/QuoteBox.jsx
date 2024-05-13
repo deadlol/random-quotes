@@ -45,8 +45,12 @@ export default function QuoteBox({ colordata }) {
             -{datas[0].author}
           </p>
           <div id="buttons">
-            <Buttons id="tweet-quote" color={colordata.rgb}>
-              <a href="twitter.com/intent/tweet" target="_blank">
+            <Buttons color={colordata.rgb}>
+              <a
+                href="twitter.com/intent/tweet"
+                target="_blank"
+                id="tweet-quote"
+              >
                 <i className="fa-brands fa-twitter"></i>
               </a>
             </Buttons>
